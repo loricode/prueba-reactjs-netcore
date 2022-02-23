@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width:500px) {
+  .sidebar {
+     display: none;
+  }
+}
+
+.MuiListItem-root{
+  text-align: center;
+}
+
+.MuiListItem-root:hover{
+  background-color: aliceblue;
+}
+.MuiListItem-root .active{
+  background-color: aliceblue;
+}
+
+.MuiListItemButton-root {
+  justify-content: center;
+}
+
+.navigation .MuiListItem-root .item-nav{
+   text-decoration: none;
+   color: #000;
+   text-align: center;
+   width: 100%;
+}
